@@ -25,11 +25,11 @@ function App() {
               Home
             </Link>
           </li>
-          <li className="p-4">
+          {/* <li className="p-4">
             <Link activeClass="active" to="New_Collection" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">
               New Collection
             </Link>
-          </li>
+          </li> */}
           <li className="p-4">
             <Link activeClass="active" to="Collection" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">
               Collection
@@ -58,11 +58,11 @@ function App() {
                 Home
               </Link>
             </li>
-            <li className="p-4  border-b border-[#ddd0c0]">
+            {/* <li className="p-4  border-b border-[#ddd0c0]">
               <Link activeClass="active" to="New_Collection" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">
                 New Collection
               </Link>
-            </li>
+            </li> */}
             <li className="p-4  border-b border-[#ddd0c0]">
               <Link activeClass="active" to="Collection" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer">
                 Collection
@@ -119,7 +119,7 @@ function App() {
       </div>
 
       {/* New Collection */}
-      <div className="w-full bg-slate-50 py-24 px-4">
+      {/* <div className="w-full bg-slate-50 py-24 px-4">
         <h1 className="font-bold pb-5 text-xl uppercase text-center">New Collection</h1>
 
         <div className="max-w-[1240px] mx-auto flex flex-wrap gap-10 justify-center items-center ">
@@ -131,18 +131,29 @@ function App() {
           <img src="/produk/3.webp" alt="" width={"25%"} />
         </div>
         <div id="Collection"></div>
-      </div>
+      </div> */}
 
       {/* Collection */}
-      <div className="w-full py-24 px-4">
+      <div className="w-full py-24 px-4  bg-slate-50 ">
         <div className="flex justify-center items-center gap-5  pb-5 ">
           <img src="/logo.png" alt="" width={150} />
           <h1 className="font-bold text-xl uppercase text-center">Collection</h1>
         </div>
+        <div className="max-w-[1240px] mx-auto flex flex-wrap gap-10 justify-center items-center py-5">
+          <img src="/produk/1.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/2.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/3.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/4.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/5.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/6.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/7.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/8.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/9.webp" alt="" className="max-w-sm rounded-xl" />
+          <img src="/produk/10.webp" alt="" className="max-w-sm rounded-xl" />
+        </div>
+        <h1 className="font-bold text-xl uppercase text-center pb-5 pt-10">Pre-Order Now!</h1>
         <div className="max-w-[1240px] mx-auto flex flex-wrap gap-10 justify-center items-center ">
-          <Card className="max-w-sm" imgAlt="foto produk" imgSrc="/produk/4.JPG">
-            <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Outer</h5>
-          </Card>
+          <img src="/produk/4.JPG" alt="" className="max-w-sm rounded-xl" />
         </div>
         <div id="Location"></div>
       </div>
