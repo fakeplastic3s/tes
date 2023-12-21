@@ -151,9 +151,22 @@ function App() {
           <img src="/produk/9.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
           <img src="/produk/10.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
         </div>
-        <h1 className="font-bold text-xl uppercase text-center pb-5 pt-10">Pre-Order Now!</h1>
+        <h1 className="font-bold text-xl uppercase text-center pb-5 pt-10">Pre-Order</h1>
         <div className="max-w-[1240px] mx-auto flex flex-wrap gap-10 justify-center items-center ">
-          <img src="/produk/4.JPG" alt="" className="max-w-sm rounded-xl" />
+          <img src="/po/1.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/2.webp" alt="" className="max-w-[150px] md:max-w-[300px]  rounded-xl" />
+          <img src="/po/3.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/4.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/5.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/6.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/7.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/8.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/9.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/10.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/11.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/12.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/13.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
+          <img src="/po/14.webp" alt="" className="max-w-[150px] md:max-w-[300px] rounded-xl" />
         </div>
         <div id="Location"></div>
       </div>
