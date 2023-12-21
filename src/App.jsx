@@ -115,7 +115,8 @@ function App() {
         >
           Contact Us
         </a>
-        <div id="New_Collection"></div>
+        {/* <div id="New_Collection"></div> */}
+        <div id="Collection"></div>
       </div>
 
       {/* New Collection */}
