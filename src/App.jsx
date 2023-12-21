@@ -140,16 +140,16 @@ function App() {
           <h1 className="font-bold text-xl uppercase text-center">Collection</h1>
         </div>
         <div className="max-w-[1240px] mx-auto flex flex-wrap gap-10 justify-center items-center py-5">
-          <img src="/produk/1.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/2.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/3.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/4.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/5.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/6.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/7.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/8.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/9.webp" alt="" className="max-w-[200px] rounded-xl" />
-          <img src="/produk/10.webp" alt="" className="max-w-[200px] rounded-xl" />
+          <img src="/produk/1.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/2.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/3.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/4.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/5.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/6.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/7.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/8.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/9.webp" alt="" className="max-w-[150px] rounded-xl" />
+          <img src="/produk/10.webp" alt="" className="max-w-[150px] rounded-xl" />
         </div>
         <h1 className="font-bold text-xl uppercase text-center pb-5 pt-10">Pre-Order Now!</h1>
         <div className="max-w-[1240px] mx-auto flex flex-wrap gap-10 justify-center items-center ">
